@@ -193,4 +193,4 @@ npm run media
 
 ## License
 
-MIT (or your
+MIT 
