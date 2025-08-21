@@ -1,0 +1,12 @@
+<form id="create-post-form" class="create-post">
+  <label>Content</label>
+  <textarea id="post-content" name="content" rows="4" maxlength="5000" required placeholder="What's happening?"></textarea>
+
+  <label>Tags (comma or # separated, e.g., #art, news)</label>
+  <input id="post-tags" name="tags" type="text" required placeholder="#art, #news" />
+
+  <label>Media (optional)</label>
+  <input id="post-file" name="file" type="file" accept="image/*,video/*" />
+
+  <button type="submit">Post</button>
+</form>

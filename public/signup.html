@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Ephemeral</title>
+  <!-- Bootstrap CSS -->
+  <link rel="stylesheet" href="import/bootstrap.min.css">
+  <link href="style.css" rel="stylesheet">
+
+</head>
+
+<body class="d-flex justify-content-center align-items-center vh-100">
+  <div class="container">
+
+    <!-- SIGNUP SECTION -->
+    <div id="signupSection" class="card text-white shadow rounded-4 mx-auto" style="max-width: 360px;">
+      <div class="card-body p-4">
+        <h1 class="text-center fw-medium mb-4">You are Ephemeral. Join us.</h1>
+        <form id="signupForm">
+          <div class="form-floating mb-3">
+            <input type="text" class="form-control" id="signupUsername" name="username" placeholder="Username" required>
+            <label for="signupUsername">Username</label>
+          </div>
+          <div class="form-floating mb-3">
+            <input type="text" class="form-control" id="signupHandle" name="handle" placeholder="Handle" required>
+            <label for="signupHandle">Handle</label>
+          </div>
+          <div class="form-floating mb-3">
+            <input type="password" class="form-control" id="signupPassword" name="password" placeholder="Password"
+              minlength="8">
+            <label for="signupPassword">Password</label>
+          </div>
+          <button type="submit" class="btn btn-primary w-100 mb-2 rounded-pill">Sign Up</button>
+          <a type="button" href="login.html" id="showLogin" class="btn btn-link w-100">Already a member? (Sign In)</a>
+        </form>
+      </div>
+    </div>
+  </div>
+  <script src="./js/signup.js"></script>
+  <script>
+    console.log("This is for the more astute of you! You don't need a password to make an account. It is just front-end.");
+  </script>
+  <!-- Bootstrap JS -->
+  <script src="import/bootstrap.bundle.min.js"></script>
+</body>
+
+</html>
